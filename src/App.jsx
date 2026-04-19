@@ -7,7 +7,7 @@
  * - Cập nhật ảnh thật địa điểm (link thực tế từ yêu cầu)
  * - Thêm Image Modal popup phóng to ảnh (điều hướng prev/next)
  * - Bổ sung 5 món đặc sản đầy đủ ảnh thật
- * - Fix YouTube ID: p4ZscHw666A
+ * - Fix YouTube ID: od1RqQ8N4PI
  * - Footer © 2026
  * - Tối ưu Framer Motion: viewport once:true, bỏ animation thừa
  * - Custom cursor dùng RAF thay vì state để không lag
@@ -1074,7 +1074,7 @@ const VideoAndMap = () => (
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src={`https://www.youtube.com/embed/${TRAVEL_DATA.videoEmbedId}?rel=0&modestbranding=1`}
+                src={src="https://www.youtube.com/embed/od1RqQ8N4PI?rel=0&modestbranding=1"}
                 title="Quảng Trị Travel Video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
