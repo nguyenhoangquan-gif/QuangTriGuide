@@ -8,7 +8,7 @@
  * - Thêm Image Modal popup phóng to ảnh (điều hướng prev/next)
  * - Bổ sung 5 món đặc sản đầy đủ ảnh thật
  * - Fix YouTube ID: od1RqQ8N4PI
- * - Footer © 2026
+ * - Footer © 2026 + nq siêu nhỏ
  * - Tối ưu Framer Motion: viewport once:true, bỏ animation thừa
  * - Custom cursor dùng RAF thay vì state để không lag
  */
@@ -229,7 +229,7 @@ const TRAVEL_DATA = {
   ],
 
   // YouTube ID đã xác minh hoạt động
-  videoEmbedId: "p4ZscHw666A",
+  videoEmbedId: "od1RqQ8N4PI",
 
   // Google Maps Thành Cổ / trung tâm Quảng Trị
   mapEmbedUrl:
@@ -1074,7 +1074,7 @@ const VideoAndMap = () => (
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src={src="https://www.youtube.com/embed/od1RqQ8N4PI?rel=0&modestbranding=1"}
+                src={`https://www.youtube.com/embed/${TRAVEL_DATA.videoEmbedId}?rel=0&modestbranding=1`}
                 title="Quảng Trị Travel Video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -1303,7 +1303,7 @@ const Footer = () => (
           © 2026 Quảng Trị Travel Guide. Thiết kế bởi{" "}
           <span className="text-orange-400 font-semibold">Lê Thị Hoài Linh</span>
           <span className="inline-block ml-1 opacity-20 hover:opacity-100 transition-opacity duration-300">
-            & Nguyễn Quân
+            & nq
           </span>
           . All rights reserved.
         </p>
